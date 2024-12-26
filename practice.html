@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: url('Background pic (2).webp') no-repeat center center/cover;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .header-overlay {
+            background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2; /* Above the overlay */
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 1rem;
+            border: 3px solid white;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: #4CAF50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            background: #f9f9f9;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <div class="profile-pic">
+                <img src="profile pic.jpg" alt="Profile Picture">
+            </div>
+            <h1>Viraj Patil</h1>
+            <p>BTech | Computer Engineer</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#Aboutme">About me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="#Programing Platforms">Programing Platforms</a>
+    </nav>
+
+    <div class="container">
+        <section id="Aboutme">
+            <h2>About me</h2>
+            <p>
+                Hi, I am Viraj Shamkant Patil. I am Pursuing BTech in computer Engineering.
+                I have completed my 10th in Indirabai Lalwani vidyalaya school by scoring 80.60% 
+                and 12th in Indirabai Lalwani highschool by scoring 78.67%. I am beginner in 
+                specilizing in computer Engineering.I am passionate about exploring the 
+                endless possibilities of IT and solving real-world problems through technology.
+            </p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>10th - Indirabai Lalwani vidyalaya</p>
+            <p>12th - Indirabai Lalwani Highschool</p>
+            <p>Bachelor of Technology - ZEAL College of Engineering and Research (2024-2028)</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C++</li>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </section>
+
+        <section id="Programing Platforms">
+            <h2>Programing Platforms</h2>
+            <ul>
+                <li><a href="https://www.codechef.com/users/viraj_patil100" target="_blank">CodeChef</a></li>
+                <li><a href="https://www.hackerrank.com/profile/virajpatil313" target="_blank">HackerRank</a></li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/viraj313?utm_source=share&utm_campaign=
+                    share_via&utm_content=profile&utm_medium=android_app" target="_self">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/viraj_patil100?igsh=c21kcnIxY2liemw5" target="_self">Instagram</a></li>
+                <li><a href="mailto:virajpatil313@gmail.com" target="_blank">Mail</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
